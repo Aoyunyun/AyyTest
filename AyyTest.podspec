@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AyyTest"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of AyyTest."
+  s.version      = "1.0.0"
+  s.summary      = "AyyTest test for cocoapods, let's go!."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description = "AyyTest for cocoapods"
+  s.description = "AyyTest for cocoapods jfiahdf adghka ngkadsgh ngkgha gkdgh  asdgkaj f adgu "
 
   s.homepage     = "https://github.com/Aoyunyun/AyyTest"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Aoyunyun/AyyTest", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Aoyunyun/AyyTest.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
