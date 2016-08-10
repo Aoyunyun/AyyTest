@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AyyTest"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "AyyTest test for cocoapods, let's go!."
 
   # This description is used to generate tags and improve search results.
