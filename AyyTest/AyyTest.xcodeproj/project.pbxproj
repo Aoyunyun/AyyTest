@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD73D9171D62E13C0093FB42 /* AyyCarthage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD73D9161D62E13C0093FB42 /* AyyCarthage.m */; };
+		AD73D9241D62E1B90093FB42 /* AyyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD73D91D1D62E1B90093FB42 /* AyyCarthage.framework */; };
+		AD73D9251D62E1B90093FB42 /* AyyCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD73D91D1D62E1B90093FB42 /* AyyCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AD73D92A1D62E2040093FB42 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = AD73D9141D62E08C0093FB42 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD73D92B1D62E2070093FB42 /* AyyCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = AD73D9151D62E13C0093FB42 /* AyyCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD73D92C1D62E2120093FB42 /* AyyCarthage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD73D9161D62E13C0093FB42 /* AyyCarthage.m */; };
 		ADDE95EE1D5AF5F000C24FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE95ED1D5AF5F000C24FEA /* main.m */; };
 		ADDE95F11D5AF5F000C24FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE95F01D5AF5F000C24FEA /* AppDelegate.m */; };
 		ADDE95F41D5AF5F000C24FEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDE95F31D5AF5F000C24FEA /* ViewController.m */; };
@@ -15,7 +21,36 @@
 		ADDE95FC1D5AF5F000C24FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADDE95FA1D5AF5F000C24FEA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AD73D9221D62E1B90093FB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADDE95E11D5AF5F000C24FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD73D91C1D62E1B90093FB42;
+			remoteInfo = AyyCarthageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD73D9291D62E1B90093FB42 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD73D9251D62E1B90093FB42 /* AyyCarthage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AD73D9141D62E08C0093FB42 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = AyyTest/Header.h; sourceTree = "<group>"; };
+		AD73D9151D62E13C0093FB42 /* AyyCarthage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyyCarthage.h; sourceTree = "<group>"; };
+		AD73D9161D62E13C0093FB42 /* AyyCarthage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyyCarthage.m; sourceTree = "<group>"; };
+		AD73D91D1D62E1B90093FB42 /* AyyCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AyyCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD73D9201D62E1B90093FB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADDE95E91D5AF5F000C24FEA /* AyyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE95ED1D5AF5F000C24FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADDE95EF1D5AF5F000C24FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,20 +64,40 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADDE95E61D5AF5F000C24FEA /* Frameworks */ = {
+		AD73D9191D62E1B90093FB42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADDE95E61D5AF5F000C24FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD73D9241D62E1B90093FB42 /* AyyCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD73D91E1D62E1B90093FB42 /* AyyCarthageFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AD73D9201D62E1B90093FB42 /* Info.plist */,
+			);
+			path = AyyCarthageFramework;
+			sourceTree = "<group>";
+		};
 		ADDE95E01D5AF5F000C24FEA = {
 			isa = PBXGroup;
 			children = (
+				AD73D9141D62E08C0093FB42 /* Header.h */,
+				AD73D9151D62E13C0093FB42 /* AyyCarthage.h */,
+				AD73D9161D62E13C0093FB42 /* AyyCarthage.m */,
 				ADDE95EB1D5AF5F000C24FEA /* AyyTest */,
+				AD73D91E1D62E1B90093FB42 /* AyyCarthageFramework */,
 				ADDE95EA1D5AF5F000C24FEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				ADDE95E91D5AF5F000C24FEA /* AyyTest.app */,
+				AD73D91D1D62E1B90093FB42 /* AyyCarthage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +137,37 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AD73D91A1D62E1B90093FB42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD73D92A1D62E2040093FB42 /* Header.h in Headers */,
+				AD73D92B1D62E2070093FB42 /* AyyCarthage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		AD73D91C1D62E1B90093FB42 /* AyyCarthageFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD73D9261D62E1B90093FB42 /* Build configuration list for PBXNativeTarget "AyyCarthageFramework" */;
+			buildPhases = (
+				AD73D9181D62E1B90093FB42 /* Sources */,
+				AD73D9191D62E1B90093FB42 /* Frameworks */,
+				AD73D91A1D62E1B90093FB42 /* Headers */,
+				AD73D91B1D62E1B90093FB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AyyCarthageFramework;
+			productName = AyyCarthageFramework;
+			productReference = AD73D91D1D62E1B90093FB42 /* AyyCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		ADDE95E81D5AF5F000C24FEA /* AyyTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADDE96001D5AF5F000C24FEA /* Build configuration list for PBXNativeTarget "AyyTest" */;
@@ -89,10 +175,12 @@
 				ADDE95E51D5AF5F000C24FEA /* Sources */,
 				ADDE95E61D5AF5F000C24FEA /* Frameworks */,
 				ADDE95E71D5AF5F000C24FEA /* Resources */,
+				AD73D9291D62E1B90093FB42 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AD73D9231D62E1B90093FB42 /* PBXTargetDependency */,
 			);
 			name = AyyTest;
 			productName = AyyTest;
@@ -108,6 +196,11 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = jpush;
 				TargetAttributes = {
+					AD73D91C1D62E1B90093FB42 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 28JU5785A8;
+						ProvisioningStyle = Automatic;
+					};
 					ADDE95E81D5AF5F000C24FEA = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 28JU5785A8;
@@ -129,11 +222,19 @@
 			projectRoot = "";
 			targets = (
 				ADDE95E81D5AF5F000C24FEA /* AyyTest */,
+				AD73D91C1D62E1B90093FB42 /* AyyCarthageFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AD73D91B1D62E1B90093FB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADDE95E71D5AF5F000C24FEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,17 +248,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AD73D9181D62E1B90093FB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD73D92C1D62E2120093FB42 /* AyyCarthage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADDE95E51D5AF5F000C24FEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADDE95F41D5AF5F000C24FEA /* ViewController.m in Sources */,
 				ADDE95F11D5AF5F000C24FEA /* AppDelegate.m in Sources */,
+				AD73D9171D62E13C0093FB42 /* AyyCarthage.m in Sources */,
 				ADDE95EE1D5AF5F000C24FEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD73D9231D62E1B90093FB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD73D91C1D62E1B90093FB42 /* AyyCarthageFramework */;
+			targetProxy = AD73D9221D62E1B90093FB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ADDE95F51D5AF5F000C24FEA /* Main.storyboard */ = {
@@ -179,6 +297,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AD73D9271D62E1B90093FB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 28JU5785A8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AyyCarthageFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JPush.AyyCarthageFramework;
+				PRODUCT_MODULE_NAME = AyyCarthage;
+				PRODUCT_NAME = AyyCarthage;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD73D9281D62E1B90093FB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 28JU5785A8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AyyCarthageFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JPush.AyyCarthageFramework;
+				PRODUCT_MODULE_NAME = AyyCarthage;
+				PRODUCT_NAME = AyyCarthage;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ADDE95FE1D5AF5F000C24FEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -275,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28JU5785A8;
 				INFOPLIST_FILE = AyyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JPush.AyyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 28JU5785A8;
 				INFOPLIST_FILE = AyyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JPush.AyyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +462,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AD73D9261D62E1B90093FB42 /* Build configuration list for PBXNativeTarget "AyyCarthageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD73D9271D62E1B90093FB42 /* Debug */,
+				AD73D9281D62E1B90093FB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		ADDE95E41D5AF5F000C24FEA /* Build configuration list for PBXProject "AyyTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -312,6 +486,7 @@
 				ADDE96021D5AF5F000C24FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
